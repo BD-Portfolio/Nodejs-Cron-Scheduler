@@ -12,30 +12,39 @@ This repository consists of cron.js file that executes crons at different timeli
 
 This is simple project to showcase how node.js cron scheduler works.
 
- # ┌────────────── second (optional)
- # │ ┌──────────── minute
- # │ │ ┌────────── hour
- # │ │ │ ┌──────── day of month
- # │ │ │ │ ┌────── month
- # │ │ │ │ │ ┌──── day of week
- # │ │ │ │ │ │
- # │ │ │ │ │ │
- # * * * * * *
+ ┌────────────── second (optional)
+ │ ┌──────────── minute
+ │ │ ┌────────── hour
+ │ │ │ ┌──────── day of month
+ │ │ │ │ ┌────── month
+ │ │ │ │ │ ┌──── day of week
+ │ │ │ │ │ │
+ │ │ │ │ │ │
+ * * * * * *
 
 ### Dependencies
+
+```
 NPM
 Node.js
+```
 
 ### Installing
 
-* npm install
+```
+$ npm install
+```
 
 ### Executing program
-* npm run prod
-* node cron.js
+
+```
+$ npm run prod 
+OR
+$ node cron.js
+```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. [@BD-Portfolio](https://github.com/BD-Portfolio)
+Bhupesh Dubey [@BD-Portfolio](https://github.com/BD-Portfolio)
