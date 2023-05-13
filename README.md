@@ -24,10 +24,8 @@ This is simple project to showcase how node.js cron scheduler works.
 
 ### Dependencies
 
-```
-NPM
-Node.js
-```
+1. NPM
+2. Node.js
 
 ### Installing
 
